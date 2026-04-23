@@ -192,8 +192,9 @@ export default function WellnessPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <Heart className="h-10 w-10 text-pink-400 mb-2" />
-                <h3 className="text-xl font-bold text-white mb-2">Counseling</h3>
-                <p className="text-white/90">Private online sessions addressing fertility concerns</p>
+                <h3 className="text-xl font-bold text-white mb-2">Fertility Nutrition</h3>
+                <p className="text-white/90">Tailored nutrition plans designed to nourish your body for optimal f
+ertility </p>
               </div>
             </motion.div>
             
@@ -212,8 +213,8 @@ export default function WellnessPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <Activity className="h-10 w-10 text-blue-400 mb-2" />
-                <h3 className="text-xl font-bold text-white mb-2">Consults</h3>
-                <p className="text-white/90">Expert IVF guidance reviewing your medical history</p>
+                <h3 className="text-xl font-bold text-white mb-2">Mind-Body Wellness</h3>
+                <p className="text-white/90">Holistic techniques to reduce stress and enhance emotional wellbeing</p>
               </div>
             </motion.div>
             
@@ -232,8 +233,9 @@ export default function WellnessPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <Smile className="h-10 w-10 text-green-400 mb-2" />
-                <h3 className="text-xl font-bold text-white mb-2">Wellness</h3>
-                <p className="text-white/90">Clear advice on next steps for tests and treatments</p>
+                <h3 className="text-xl font-bold text-white mb-2">Hormonal Wellness</h3>
+                <p className="text-white/90">Supportive lifestyle changes to maintain balance and improve reproductive h
+ealth </p>
               </div>
             </motion.div>
           </div>
@@ -314,12 +316,12 @@ export default function WellnessPage() {
           
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: Apple, title: "Balanced Nutrition", desc: "Eat fertility-boosting foods rich in antioxidants and vitamins" },
-              { icon: Dumbbell, title: "Regular Exercise", desc: "Moderate physical activity improves hormonal balance" },
-              { icon: Moon, title: "Quality Sleep", desc: "7-8 hours of sleep supports reproductive health" },
-              { icon: Coffee, title: "Stress Management", desc: "Meditation and yoga reduce stress levels" },
-              { icon: Heart, title: "Healthy Weight", desc: "Maintaining optimal BMI improves fertility" },
-              { icon: Activity, title: "Stay Hydrated", desc: "Proper hydration supports overall health" }
+              { icon: Apple, title: "Balanced Nutrition", desc: `Nourish your body with fertility-supporting foods rich in essential nutrients, antioxidants, and healthy fats ` },
+              { icon: Dumbbell, title: "Regular Movement", desc: "Incorporate mindful physical activity to improve circulation, hormonal balance, and overall vitality " },
+              { icon: Moon, title: "Restorative Sleep", desc: "Prioritize deep, consistent sleep to support hormonal regulation and reproductive health " },
+              { icon: Coffee, title: "Stress Balance", desc: "Adopt calming practices like mindfulness and yoga to reduce stress and support emotional wellbeing " },
+              { icon: Heart, title: "Optimal Weight", desc: "Maintain a healthy body composition to enhance hormonal function and improve fertility outcomes " },
+              { icon: Activity, title: "Hydration & Detox Support", desc: "Stay well-hydrated to support metabolism, detoxification, and overall reproductive health " }
             ].map((tip, index) => (
               <motion.div
                 key={tip.title}
@@ -418,7 +420,7 @@ export default function WellnessPage() {
                     <p className="text-sm text-gray-600">📞 +91-9211565661</p>
                   </div>
                   <div className="text-right">
-                    <p className="text-sm text-gray-600">📍 Location: Mumbai</p>
+                    <p className="text-sm text-gray-600">📍 Location: noida</p>
                     <p className="text-sm text-gray-600">🕐 Hours: Monday - Saturday</p>
                   </div>
                 </div>

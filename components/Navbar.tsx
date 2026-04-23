@@ -24,18 +24,12 @@ export default function Navbar() {
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-      scrolled ? "bg-white/95 backdrop-blur-md shadow-lg" : "bg-white shadow-md"
+      scrolled ? "bg-white backdrop-blur-md shadow-lg" : "bg-white shadow-md"
     }`}>
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2 group">
-            <div className="relative">
-              <Heart className="h-8 w-8 text-primary-500 group-hover:scale-110 transition-transform" />
-              <Stethoscope className="h-4 w-4 text-secondary-500 absolute -bottom-1 -right-1" />
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
-              Ferti<span className="text-accent-500">Care</span>
-            </span>
+               <img src="logo.png" className="h-16 w-auto object-contain" />
           </Link>
 
           <div className="hidden md:flex space-x-8">

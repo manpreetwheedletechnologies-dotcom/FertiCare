@@ -126,6 +126,7 @@ export default function ConsultationsPage() {
                                     <CheckCircle className="h-5 w-5 text-green-500" />
                                     <span className="text-gray-700">Ongoing support and guidance</span>
                                 </div>
+                                
                             </div>
                         </motion.div>
 
@@ -160,8 +161,10 @@ export default function ConsultationsPage() {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                             <div className="relative p-6 z-10">
                                 <Stethoscope className="h-10 w-10 text-blue-400 mb-3" />
-                                <h3 className="text-xl font-bold text-white mb-2">Consultations</h3>
-                                <p className="text-white/90">Detailed IVF and IUI guidance based on your medical history and personal goals.</p>
+                                <h3 className="text-xl font-bold text-white mb-2">Initial Consultation</h3>
+                                <p className="text-white/90">Personalized fertility consultation based on your medical history, lifestyle,
+ and goals to 
+identify the right path forward. </p>
                             </div>
                         </motion.div>
 
@@ -180,8 +183,10 @@ export default function ConsultationsPage() {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                             <div className="relative p-6 z-10">
                                 <ClipboardList className="h-10 w-10 text-purple-400 mb-3" />
-                                <h3 className="text-xl font-bold text-white mb-2">Review</h3>
-                                <p className="text-white/90">Thorough analysis of medical histories and tests.</p>
+                                <h3 className="text-xl font-bold text-white mb-2">Medical Review</h3>
+                                <p className="text-white/90">In-depth evaluation of reports, test results, and past treatments to buil
+d a clear and 
+accurate fertility plan. </p>
                             </div>
                         </motion.div>
 
@@ -200,8 +205,10 @@ export default function ConsultationsPage() {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                             <div className="relative p-6 z-10">
                                 <Heart className="h-10 w-10 text-pink-400 mb-3" />
-                                <h3 className="text-xl font-bold text-white mb-2">Consult</h3>
-                                <p className="text-white/90">Clear guidance on IVF, IUI, and natural methods.</p>
+                                <h3 className="text-xl font-bold text-white mb-2">Treatment Guidance</h3>
+                                <p className="text-white/90">Expert recommendations on IVF, IUI, or natural methods, helping you choose what
+ works 
+best for your body and situation. </p>
                             </div>
                         </motion.div>
 
@@ -220,8 +227,10 @@ export default function ConsultationsPage() {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                             <div className="relative p-6 z-10">
                                 <Clock className="h-10 w-10 text-green-400 mb-3" />
-                                <h3 className="text-xl font-bold text-white mb-2">Wellness</h3>
-                                <p className="text-white/90">Lifestyle advice for diet, stress, and hormones.</p>
+                                <h3 className="text-xl font-bold text-white mb-2">Wellness Support</h3>
+                                <p className="text-white/90">Holistic support covering nutrition, stress management, and hormonal balan
+ce to improve 
+overall fertility health. </p>
                             </div>
                         </motion.div>
                     </div>

@@ -8,8 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Heart className="h-6 w-6 text-primary-500" />
-              <span className="text-xl font-bold">FertiCare</span>
+                <img src="logo.png" className="h-16 w-auto object-contain" />
             </div>
             <p className="text-gray-400 text-sm">
               Compassionate fertility care tailored to your unique journey.
